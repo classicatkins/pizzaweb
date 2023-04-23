@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/create.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Create a Pizza</title>
+  </head>
+    <!-- navigation -->
+    <nav>
+      <ul>
+        <li><a href="menu.html">Menu</a></li> 
+        <li><a href="#" class="current">Create</li> 
+        <li><a href="home.html">Home</a></li> 
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  <body>
+    <section id="main">
+      <!--form-->
+
+      <div class="form-box">
+      <form action="yourorder.html" method="GET">
+        <label for="size"><strong>Size:</strong></label>
+        <select id="size" name="name" required>
+          <option value="small">Small (6-inch)</option>
+          <option value="medium">Medium (8-inch)</option>
+          <option value="large">Large (12-inch)</option>
+        </select>
+        <br>
+        <br>
+        <span><strong>Thin Crust or Deep Dish:</strong></span>
+        <br>
+        <input id="thin" type="radio" name="radio1" value="thin" required/>
+        <label for="thin">Thin Crust</label>
+        <input id="deep" type="radio" name="radio1" value="deep"/>
+        <label for="deep">Deep Dish</label>
+        <br>
+        <br>
+        <span><strong>Tomato Sauce or Alfredo Sauce:</strong></span>
+        <br>
+        <input id="tomato" type="radio" name="radio2" value="tomato" required/>
+        <label for="tomato">Tomato Sauce</label>
+        <input id="alfredo" type="radio" name="radio2" value="alfredo"/>
+        <label for="alfredo">Alfredo Sauce</label>
+        <br>
+        <br>
+        <label for="topping"><strong>Toppings:</strong></label>
+    
+          <label for="sausage">Sausage</label>
+          <input type="checkbox" id="sausage" name="sausage" value="sausage">
+          
+          <label for="Ham">Ham</label>
+          <input type="checkbox" id="Ham" name="Ham" value="Ham">
+          
+          <label for="peppers">Green Peppers</label>
+          <input type="checkbox" id="peppers" name="peppers" value="peppers">
+
+          <label for="chicken">Chicken</label>
+          <input type="checkbox" id="chicken" name="chicken" value="chicken">
+          
+          <label for="spinach">Spinach</label>
+          <input type="checkbox" id="spinach" name="spinach" value="spinach">
+          
+          <label for="mushrooms">Mushrooms</label>
+          <input type="checkbox" id="mushrooms" name="mushrooms" value="mushrooms">
+
+          <label for="pineapples">Pineapples</label>
+          <input type="checkbox" id="pineapples" name="pineapples" value="pineapples">
+          
+          <label for="anchovies">Anchovies</label>
+          <input type="checkbox" id="anchovies" name="anchovies" value="anchovies">
+        </select>
+        <br>
+        <br>
+        <label for="message"><strong>Special Instructions:</strong></label>
+        <br>
+        <textarea id="message" name="message" rows="8" cols="40" maxlength="250"></textarea>
+        <br>
+        <br>
+
+        <!--button-->
+
+        <input class="btn" type="submit" name="submit" value="Order my Pizza!">
+      </form>
+    </div>
+    </section>
+  </body>
+</html>
