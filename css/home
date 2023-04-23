@@ -1,0 +1,181 @@
+/*navigation*/
+
+nav {
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: rgba(2, 2, 2, 0.87);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+  font-family: 'Raleway', sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+    font-size: 30px;
+  }
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+nav a.current {
+    color: #f00;
+  }
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+ 
+
+body {
+	font-family: Arial, sans-serif;
+    position: relative;
+    top: 50px;
+}
+
+header {
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+.menu-item {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.price {
+	float: right;
+	color: #f00;
+	font-weight: bold;
+}
+
+/* Home page banner */
+
+#banner {
+	background-image: url("borderpizza.jfif");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 80px;
+	text-align: center;
+    width: 100%;
+}
+
+#banner h2 {
+	font-size: 48px;
+	margin-bottom: 20px;
+    color: black;
+}
+
+#banner p {
+	font-size: 24px;
+	margin-bottom: 40px;
+    color: black;
+}
+
+/* Button */
+
+.buttonsection {
+    text-align: center;
+} 
+
+.button {
+    display: inline-block;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+	background-color: #fff;
+	color: #f00;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+.button:active {
+    font-size: 18px;
+    transition: font-size .1s ease-in-out;
+  }
+
+/*createandorder*/
+
+#createandorder {
+	background-color: #f1f1f1;
+	padding: 40px;
+	text-align: center;
+    border-radius: 5px;
+}
+
+#createandorder p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+/* About Us section */
+
+#about-us {
+	background-color:  #ccc;
+	padding: 40px;
+	text-align: center;
+    border-radius: 5px;
+}
+
+#about-us p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+/* Contact section */
+
+#contact {
+	background-color: rgb(107, 106, 106);
+	padding: 40px;
+	text-align: center;
+	color: #fff;
+    border-radius: 10px;
+}
+
+#contact p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+#contact a {
+	color: #fff;
+}
