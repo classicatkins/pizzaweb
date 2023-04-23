@@ -1,0 +1,155 @@
+/*navigation*/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: rgba(2, 2, 2, 0.87);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+  font-family: 'Raleway', sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+    font-size: 30px;
+  }
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a.current {
+  color: #f00;
+}
+
+/* Header */
+.headerimage {
+  width: 100%;
+  height: 50%;
+  }
+  
+  /* Headings */
+  h1 {
+  font-size: 36px;
+  padding: 15px;
+  color: #8c6b48;
+  background-color: white;
+  text-align: center;
+  }
+  
+  /* Containers */
+  .container,
+  .meat-container,
+  .margarita-container,
+  .chicago-container,
+  .veggie-container,
+  .bbq-container,
+  .hawaiian-container,
+  .create-container {
+  width: 100%;
+  overflow: hidden; /* to clear the float */
+  }
+  
+  /* Images */
+  .left,
+  .right {
+  max-width: 100%;
+  height: auto;
+  margin: 20px;
+  }
+  
+  .left {
+  float: left;
+  }
+  
+  .right {
+  float: right;
+  }
+  
+  /* Responsive design */
+  @media only screen and (max-width: 768px) {
+  .left,
+  .right {
+  max-width: 100%;
+  height: auto;
+  float: none;
+  }
+  }
+  
+  /* Color and font styles */
+  body {
+  font-family: Arial, sans-serif;
+  color: #555;
+  background-color: #f9f9f9;
+  position: relative;
+  top: 50px;
+  }
+  
+  h2 {
+  font-weight: bold;
+  color: black;
+  padding-left: 20px;
+  }
+  /*h2 {
+    background-color:rgba(2, 2, 2, 0.2);
+  }*/
+  
+  .container {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  .meat-container {
+  background-color: #fff;
+  }
+  
+  .margarita-container {
+  background-color:  #ccc;
+  }
+  
+  .chicago-container {
+  background-color: #fff;;
+  }
+  
+  .veggie-container {
+  background-color:  #ccc;
+  }
+  
+  .bbq-container {
+  background-color: #fff;
+  } 
+  
+  .hawaiian-container {
+  background-color:  #ccc;
+  }
+
+  .create-container {
+    background-color:  #fff;
+    }
+  .price {
+    color:#f00;
+    font-weight: bold;
+  }
+  p {
+    padding: 20px;
+    font-size: 20px;
+  }
