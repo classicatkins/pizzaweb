@@ -65,7 +65,7 @@ nav a.current {
   .hawaiian-container,
   .create-container {
   width: 100%;
-  overflow: hidden; /* to clear the float */
+  overflow: hidden;
   }
   
   /* Images */
@@ -84,7 +84,6 @@ nav a.current {
   float: right;
   }
   
-  /* Responsive design */
   @media only screen and (max-width: 768px) {
   .left,
   .right {
@@ -94,7 +93,6 @@ nav a.current {
   }
   }
   
-  /* Color and font styles */
   body {
   font-family: Arial, sans-serif;
   color: #555;
@@ -108,9 +106,6 @@ nav a.current {
   color: black;
   padding-left: 20px;
   }
-  /*h2 {
-    background-color:rgba(2, 2, 2, 0.2);
-  }*/
   
   .container {
   background-color: white;
