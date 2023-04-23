@@ -1,0 +1,89 @@
+/*navigation*/
+nav {
+  position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 9999;
+background-color: rgba(2, 2, 2, 0.87);
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+li {
+  margin: 0 10px;
+  font-family: 'Raleway', sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+    font-size: 30px;
+  }
+
+a {
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+}
+nav a.current {
+  color: #f00;
+}
+
+/*body*/
+
+body {
+  position: relative;
+  top: 50px;
+  background-image: url("pizzanavy.jpg");
+}
+
+/*form box*/
+
+.form-box {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 65px 20px 150px 20px;
+    margin: 100px auto 200px auto;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255,255,255,0.93);
+    border-radius: 10px;
+  }
+
+  /*button*/
+
+  .btn {
+  background-color: #ff2121;
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+  .btn:hover {
+    background-color: transparent;
+    color: #f00;
+    transition: color .1s ease-in, background-color .1s ease-in;
+  }
+   
+  .btn:active {
+    font-size: 18px;
+    transition: font-size .1s ease-in-out;
+  }
